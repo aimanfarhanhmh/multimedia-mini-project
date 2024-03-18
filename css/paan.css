@@ -1,0 +1,24 @@
+
+@font-face { font-family: VeganStyle; src: url('VeganStyle.ttf'); }
+@font-face { font-family: BeautifulPeople; src: url('BeautifulPeople.ttf'); }
+.bg-custom{
+	background-color: #273c75;
+}
+
+.samplePaan{
+	font-family:VeganStyle;
+	font-size:150%;
+	color:#9babdd;
+}
+
+.logo{
+	font-family: BeautifulPeople;
+}
+
+#dashboard{
+	padding:10px; 
+	background-color:rgba(25, 42, 86, 0.9);
+}
+body{
+	background-image: url(image/polkadot.png);
+}

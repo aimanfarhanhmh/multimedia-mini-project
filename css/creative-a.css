@@ -1,0 +1,132 @@
+
+@font-face { font-family:Youth; src: url('fonts/YouthTouch.ttf'); }
+@font-face { font-family:Roboto; src: url('fonts/Roboto-Regular.ttf'); }
+@font-face { font-family:Merriweather; src: url('fonts/Merriweather-Regular.ttf'); }
+
+#dashboard{
+	padding:10px; 
+	background-color:rgba(25, 42, 86, 0.9);
+}
+body{
+	background-color:#eae9e9;
+}
+
+div span{
+	color:#c23616;
+}
+
+div .col-sm{
+	padding:10px;
+}
+
+#intro{
+	margin-top:50px;
+	font-family:Roboto;
+	font-size:18.9px;
+}
+
+#prev-project{
+	padding:25px;
+	color:#192a56;
+	font-size:20px;
+}
+
+#Roboto{
+	font-family:Roboto;
+	font-size:18.9px;
+}
+
+.section-dark{
+	background-color:#7f8fa6;
+	padding-top:25px;
+	padding-bottom:25px;
+	color:#ffffff;
+}
+
+#pad-25{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+#Merriweather{
+	font-family:Merriweather;
+	font-size:40px;
+}
+
+#Merriweather-20{
+	font-family:Merriweather;
+	font-size:28px;
+}
+
+#dark-back{
+	color:#353b48;
+}
+
+#nav.shrink{
+	background-color: #273c75;
+	height: 60px;
+	transition: all ease .5s;
+	color: #c23616;
+}
+
+#nav{
+	height: 70px;
+	background: transparent; // Transparent initial setting
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+	transition: all ease .5s;
+	color: #fff;
+}
+
+#nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
+}
+
+#logo {
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  transition: all ease .5s;
+  font-family: Youth;
+}
+
+#contact{
+	color:#c23616;
+}
+
+.btn-contact {
+  color: #fff;
+  background-color: #e84118;
+  border-color: #f5f6fa;
+}
+
+.btn-contact:hover {
+  color: #fff;
+  background-color: #c23616;
+  border-color: #f5f6fa;
+}
+
+.btn-contact:focus, .btn-contact.focus {
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
+
+.btn-contact.disabled, .btn-contact:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #f5f6fa;
+}
+
+.btn-contact:not(:disabled):not(.disabled):active, .btn-contact:not(:disabled):not(.disabled).active,
+.show > .btn-contact.dropdown-toggle {
+  color: #fff;
+  background-color: #f5f6fa;
+  border-color: #b21f2d;
+}
+
+.btn-contact:not(:disabled):not(.disabled):active:focus, .btn-contact:not(:disabled):not(.disabled).active:focus,
+.show > .btn-contact.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
